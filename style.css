@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif ;
+}
+
+
+/*
+## Colors
+
+### Primary
+
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+
+*/
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: hsl(217, 54%, 11%);
+}
+
+.container-flex{
+ background:  hsl(216, 50%, 16%);
+ padding: 22px;
+ border-radius: 25px;
+ max-width: 20rem;
+}
+
+.section-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.img-eth{
+    display: inline-block;
+    border-radius: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+    object-fit: cover;
+}
+
+.article-flex-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.article-flex-p{
+    display: flex;
+   gap: 0 6px;
+}
+
+.color-cyan{
+    color: hsl(178, 100%, 50%);
+}
+
+.article-flex-p .eth-txt{
+    font-weight: 600;
+}
+
+.color-gray{
+    color: hsl(215, 51%, 70%);
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer>img{
+    border: 1px solid white;
+    height: 30px;
+    border-radius: 50%;
+}
+.box-1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
